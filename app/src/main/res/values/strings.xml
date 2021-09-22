@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ComunicacionActividades</string>
+    <string name="etNombre1">Nombre</string>
+    <string name="etNombre2">Nombre</string>
+    <string name="BotonVerificar">Verificar</string>
+    <string name="BotonAceptar">Aceptar</string>
+    <string name="BotonRechazar">Rechazar</string>
+</resources>
