@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         et1 = (EditText) findViewById(R.id.et1);
     }
-
+    //onResume
     @Override
     protected void onResume() {
         super.onResume();
@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-
     //metodo para el boton verificar
     public void Verificar(View view){
         Intent i = new Intent(this, MainActivity2.class);

@@ -21,7 +21,7 @@ public class MainActivity2 extends AppCompatActivity {
         String dato = getIntent().getStringExtra("dato");
         tv1.setText("Hola " + dato +" "+"¿Aceptas las condiciones?");
     }
-
+    //metodo para el boton Rechazar
     public void Rechazar(View view){
         Intent i = new Intent(this, MainActivity.class);
         String dato = "Rechazado";
@@ -29,6 +29,7 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(i);
 
     }
+    //metodo para el boton Aceptar
     public void Aceptar(View view) {
         Intent i = new Intent(this, MainActivity.class);
         String dato = "Aceptado";
