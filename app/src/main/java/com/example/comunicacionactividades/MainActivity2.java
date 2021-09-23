@@ -19,11 +19,20 @@ public class MainActivity2 extends AppCompatActivity {
         tv1 = (TextView) findViewById(R.id.tv1);
 
         String dato = getIntent().getStringExtra("dato");
-        tv1.setText("Hola " + dato + "¿Aceptas las condiciones?");
+        tv1.setText("Hola " + dato +" "+"¿Aceptas las condiciones?");
     }
 
     public void Rechazar(View view){
         Intent i = new Intent(this, MainActivity.class);
+        String dato = "Rechazado";
+        i.putExtra("dato",dato);
+        startActivity(i);
+
+    }
+    public void Aceptar(View view) {
+        Intent i = new Intent(this, MainActivity.class);
+        String dato = "Aceptado";
+        i.putExtra("dato",dato);
         startActivity(i);
     }
 }
